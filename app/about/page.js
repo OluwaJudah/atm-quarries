@@ -19,6 +19,7 @@ export default function Page() {
         eyebrow="ABOUT ATM QUARRIES"
         title={<>Building a <em>Resilient</em> Resource Business.</>}
         text="Integrated mining, exploration and mineral resources capabilities founded on operational excellence, responsible stewardship and long-term value creation."
+        image="/images/2101144.webp"
       />
       <section className="section">
         <div className="container two-col">

@@ -20,6 +20,7 @@ export default function Page() {
         eyebrow="SUSTAINABILITY"
         title={<>Mining With <em>Responsibility.</em></>}
         text="Mineral development should create value without compromising the environment, communities or future generations."
+        image="/images/2101141.webp"
       />
       <section className="section">
         <div className="container">

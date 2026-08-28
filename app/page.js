@@ -4,8 +4,10 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ArrowUpRight, ArrowRight, Compass, Pickaxe, Factory, Truck, ShieldCheck, Leaf, Handshake, Gem } from 'lucide-react';
 
-const hero = 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=2200&q=85';
-const quarry = 'https://images.unsplash.com/photo-1541971875076-8f970d573be6?auto=format&fit=crop&w=1600&q=85';
+// Hero: aerial terraced open-pit quarry landscape — Pexels #2101136 (real quarry photo)
+const hero = '/images/2101136.webp';
+// Section: aerial quarry crushing plant — Pexels #2101140 (real quarry photo)
+const quarry = '/images/2101140.webp';
 
 const focus = [
     ['01', 'EXPLORE', 'Identifying mineral opportunities and evaluating deposits with commercial potential.', Compass],
