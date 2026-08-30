@@ -23,7 +23,7 @@ export default function Page() {
         eyebrow="PROJECTS"
         title={<>Building Our <em>Resource Portfolio.</em></>}
         text="We are building a portfolio of mineral exploration, mining, quarrying and processing opportunities across strategic locations."
-        image="/images/2101134.webp"
+        image="/images/image-11.jpg"
       />
       <section className="section">
         <div className="container project-feature">

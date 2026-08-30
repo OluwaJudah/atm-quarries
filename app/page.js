@@ -4,10 +4,10 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ArrowUpRight, ArrowRight, Compass, Pickaxe, Factory, Truck, ShieldCheck, Leaf, Handshake, Gem } from 'lucide-react';
 
-// Hero: aerial terraced open-pit quarry landscape — Pexels #2101136 (real quarry photo)
-const hero = '/images/2101136.webp';
-// Section: aerial quarry crushing plant — Pexels #2101140 (real quarry photo)
-const quarry = '/images/2101140.webp';
+// Hero image
+const hero = '/images/image-13.webp';
+// Section quarry image
+const quarry = '/images/image-2.jpg';
 
 const focus = [
     ['01', 'EXPLORE', 'Identifying mineral opportunities and evaluating deposits with commercial potential.', Compass],
@@ -34,16 +34,7 @@ export default function Home() {
                     <div className="container hero-content">
                         <p className="eyebrow hero-eyebrow">ATM QUARRIES LIMITED · NIGERIA</p>
                         <h1>Exploring Resources.<br /><em>Creating Value.</em><br /><em>Building the Future.</em></h1>
-                        <p className="hero-copy">We operate across the mineral value chain, including exploration, mining, quarrying, processing, manufacturing, supply and trading of mineral resources and associated materials.</p>
-                        <p className="hero-tagline">Responsible resource development. Sustainable growth. Lasting value.</p>
-                        <div className="actions">
-                            <Link className="button button-light" href="/operations">
-                                Explore Our Operations <ArrowUpRight size={16} />
-                            </Link>
-                            <Link className="button button-outline-light" href="/contact">
-                                Partner With Us <ArrowUpRight size={16} />
-                            </Link>
-                        </div>
+
                     </div>
                     <div className="hero-index">01 / 07</div>
                 </section>

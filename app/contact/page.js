@@ -12,7 +12,7 @@ export default function Page() {
         eyebrow="CONTACT"
         title={<>Let’s Talk <em>Resources.</em></>}
         text="Have a project, investment opportunity, mineral requirement or potential partnership? Our team would be pleased to hear from you."
-        image="/images/2101138.webp"
+        image="/images/image-20.jpg"
       />
       <section className="section">
         <div className="container contact-grid">

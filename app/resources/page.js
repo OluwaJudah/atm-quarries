@@ -18,7 +18,7 @@ export default function Page() {
         eyebrow="MINERALS & RESOURCES"
         title={<>A Broad <em>Resource Portfolio.</em></>}
         text="We maintain a flexible resource strategy spanning quarry materials, industrial minerals, energy resources and additional mineral opportunities."
-        image="/images/2101142.webp"
+        image="/images/image-18.jpg"
       />
       <section className="section">
         <div className="container resource-catalog">

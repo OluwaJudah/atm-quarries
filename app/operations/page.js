@@ -20,7 +20,7 @@ export default function Page() {
         eyebrow="OUR OPERATIONS"
         title={<>From Exploration <em>to Market.</em></>}
         text="Capabilities designed to cover multiple stages of the mineral value chain, connecting resource opportunity with commercial discipline."
-        image="/images/15071423.webp"
+        image="/images/image-7.webp"
       />
       <section className="section">
         <div className="container">
