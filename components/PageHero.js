@@ -17,7 +17,6 @@ export default function PageHero({ eyebrow, title, text, image }) {
       <div className="container page-hero-content">
         {eyebrow && <p className="eyebrow page-hero-eyebrow">{eyebrow}</p>}
         <h1>{title}</h1>
-        {text && <p className="page-hero-text">{text}</p>}
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ export function LogoIcon({ className = "logo-svg" }) {
       {/* Blue stylized mountain/A chevron */}
       <path
         d="M 8 45 L 31 12 C 33 9 36 9 38 12 L 56 37 C 58 40 56 43 51 43 L 38 43 C 36 43 35 41 34 39 L 30 32 L 20 46 C 18 49 14 49 10 49 L 8 45 Z"
-        fill="#1f74b7"
+        fill="#205584"
       />
       {/* Upper black sloped bar */}
       <path

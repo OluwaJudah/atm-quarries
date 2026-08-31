@@ -34,7 +34,6 @@ export default function Home() {
                     <div className="container hero-content">
                         <p className="eyebrow hero-eyebrow">ATM QUARRIES LIMITED · NIGERIA</p>
                         <h1>Exploring Resources.<br /><em>Creating Value.</em><br /><em>Building the Future.</em></h1>
-
                     </div>
                     <div className="hero-index">01 / 07</div>
                 </section>
