@@ -30,7 +30,7 @@ export default function Page() {
                 <span>0{i + 1}</span>
                 <div className="card-header">
                   <Icon size={24} />
-                  <h2>{t}</h2>
+                  <h3 className="uppercase">{t}</h3>
                 </div>
                 <p>{p}</p>
               </article>

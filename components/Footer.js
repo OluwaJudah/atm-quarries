@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { Mail, Phone, MapPin } from 'lucide-react';
-import Logo from '@/components/Logo';
+import Link from "next/link";
+import { Mail, Phone, MapPin } from "lucide-react";
+import Logo from "@/components/Logo";
 
 export default function Footer() {
   return (
@@ -8,28 +8,49 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <Logo />
-          <p className="footer-tagline">Exploring resources.<br />Creating value.<br />Building the future.</p>
+          <p className="footer-tagline">
+            Exploring resources.
+            <br />
+            Creating value.
+            <br />
+            Building the future.
+          </p>
         </div>
         <div>
           <h4>QUICK LINKS</h4>
           <div className="footer-links">
             {[
-              ['About Us', '/about'],
-              ['Operations', '/operations'],
-              ['Resources', '/resources'],
-              ['Projects', '/projects'],
-              ['Sustainability', '/sustainability'],
-              ['Contact', '/contact']
+              ["About Us", "/about"],
+              ["Operations", "/operations"],
+              ["Resources", "/resources"],
+              ["Projects", "/projects"],
+              ["Sustainability", "/sustainability"],
+              ["Contact", "/contact"],
             ].map(([x, y]) => (
-              <Link href={y} key={y}>{x}</Link>
+              <Link href={y} key={y}>
+                {x}
+              </Link>
             ))}
           </div>
         </div>
         <div>
           <h4>CONTACT</h4>
-          <p className="footer-contact"><MapPin size={15} />3/4 Temidire Street, Araromi Ugbeshi, Omuo Ekiti, Ekiti State, Nigeria</p>
-          <p className="footer-contact"><Mail size={15} /><a href="mailto:info@atmquarries.com">info@atmquarries.com</a></p>
-          <p className="footer-contact"><Phone size={15} /><a href="tel:+2347035098273">+234 703 509 8273</a></p>
+          <p className="footer-contact">
+            <MapPin size={15} />
+            3/4 Temidire Street, Araromi Ugbeshi, Omuo Ekiti, Ekiti State,
+            Nigeria
+          </p>
+          <p className="footer-contact">
+            <Mail size={15} />
+            <div className="footer-emails">
+              <a href="mailto:info@atmquarries.com">info@atmquarries.com</a>
+              <a href="mailto:atmquarries@gmail.com">atmquarries@gmail.com</a>
+            </div>
+          </p>
+          <p className="footer-contact">
+            <Phone size={15} />
+            <a href="tel:+2347035098273">+234 703 509 8273</a>
+          </p>
         </div>
         <div>
           <h4>LEGAL</h4>

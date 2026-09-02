@@ -16,7 +16,7 @@ export default function Page() {
     <>
       <Header />
       <PageHero
-        eyebrow="ABOUT ATM QUARRIES"
+        eyebrow=""
         title={<>Building a <em>Resilient</em> Resource Business.</>}
         text="Integrated mining, exploration and mineral resources capabilities founded on operational excellence, responsible stewardship and long-term value creation."
         image="/images/image-19.jpg"
@@ -39,7 +39,7 @@ export default function Page() {
         <div className="container vision-grid">
           <div>
             <p className="eyebrow">OUR VISION</p>
-            <h2>To become a trusted and leading force in <span>responsible mineral resource development and commercialisation.</span></h2>
+            <p className="large-copy">To become a trusted and leading force in responsible mineral resource development and commercialisation.</p>
           </div>
           <div>
             <p className="eyebrow">OUR MISSION</p>

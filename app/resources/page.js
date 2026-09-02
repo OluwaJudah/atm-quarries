@@ -4,7 +4,7 @@ import PageHero from '@/components/PageHero';
 import { Mountain, Gem, Fuel, Layers3 } from 'lucide-react';
 
 const groups = [
-  ['Construction & Quarry Materials', 'Stone, aggregate and quarry materials for construction and infrastructure applications.', Mountain, ['Rocks', 'Stones', 'Sand', 'Gravel', 'Shingle', 'Ballast', 'Rubble', 'Slate', 'Shale', 'Slag', 'Breeze']],
+  ['Construction & Quarry Materials', 'Stone, aggregate and quarry materials for construction and infrastructure applications.', Mountain, ['Rocks', 'Stones', 'Sand', 'Gravel', 'Shingle', 'Ballast', 'Rubble',]],// 'Slate', 'Shale', 'Slag', 'Breeze'
   ['Industrial & Decorative Minerals', 'Materials serving industrial, architectural and decorative applications.', Gem, ['Marble', 'Gypsum', 'Limestone', 'Other industrial minerals', 'Dimension & architectural stone']],
   ['Energy Resources', 'Resource interests spanning selected mineral-based energy resources.', Fuel, ['Coal', 'Peat and related fuels', 'Oils and mineral-based energy resources']],
   ['Other Mineral Substances', 'Flexibility to explore, acquire, develop, process and commercialise additional resources where viable.', Layers3, ['Additional mineral resources', 'Associated materials', 'Future resource opportunities']]
@@ -26,7 +26,7 @@ export default function Page() {
             <article className="resource-panel" key={t}>
               <div className="card-header">
                 <Icon size={24} />
-                <h2>{t}</h2>
+                <h3 className="uppercase">{t}</h3>
               </div>
               <p>{p}</p>
               <div className="chips large-chips">

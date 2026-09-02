@@ -17,7 +17,6 @@ export default function Page() {
       <section className="section">
         <div className="container contact-grid">
           <div>
-            <p className="eyebrow">ATM QUARRIES LIMITED</p>
             <h2>Let’s Develop <span>Opportunities Together.</span></h2>
             <div className="contact-details">
               <div className="contact-item">
@@ -31,7 +30,10 @@ export default function Page() {
                 <Mail size={20} />
                 <div>
                   <small>EMAIL</small>
-                  <p><a href="mailto:info@atmquarries.com">info@atmquarries.com</a></p>
+                  <div>
+                    <p><a href="mailto:info@atmquarries.com">info@atmquarries.com</a><br />
+                    <a href="mailto:atmquarries@gmail.com">atmquarries@gmail.com</a></p>
+                </div>
                 </div>
               </div>
               <div className="contact-item">

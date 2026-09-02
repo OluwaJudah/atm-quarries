@@ -32,8 +32,7 @@ export default function Home() {
                     <Image src={hero} alt="Mining landscape" fill priority className="hero-image" />
                     <div className="hero-overlay" />
                     <div className="container hero-content">
-                        <p className="eyebrow hero-eyebrow">ATM QUARRIES LIMITED · NIGERIA</p>
-                        <h1>Exploring Resources.<br /><em>Creating Value.</em><br /><em>Building the Future.</em></h1>
+                        <h1>Exploring Resources.<br /><em>Creating Value.</em><br />Building the Future.</h1>
                     </div>
                     <div className="hero-index">01 / 07</div>
                 </section>
@@ -59,7 +58,7 @@ export default function Home() {
                     <div className="container">
                         <div className="section-heading-row">
                             <div>
-                                <p className="eyebrow">03 — WHAT WE DO</p>
+                                <p className="eyebrow">WHAT WE DO</p>
                                 <h2>Across the <span>Mineral Value Chain.</span></h2>
                             </div>
                             <p className="section-intro">Capabilities designed to take opportunities from geological potential to commercial value.</p>
@@ -83,10 +82,10 @@ export default function Home() {
                     <div className="container image-split-grid">
                         <div className="image-frame">
                             <Image src={quarry} alt="Quarry operations" fill sizes="(max-width:900px) 100vw, 50vw" />
-                            <span className="image-label">04 — RESOURCES / 2026</span>
+                            <span className="image-label">RESOURCES / 2026</span>
                         </div>
                         <div>
-                            <p className="eyebrow">04 — RESOURCES</p>
+                            <p className="eyebrow">RESOURCES</p>
                             <h2>A Broad <span>Resource Portfolio.</span></h2>
                             <p className="muted">Our interests encompass construction and quarry materials, industrial and decorative minerals, energy resources and other mineral substances where commercially and technically viable.</p>
                             <div className="resource-list">
@@ -120,7 +119,7 @@ export default function Home() {
                     <div className="container">
                         <div className="section-heading-row">
                             <div>
-                                <p className="eyebrow">05 — RESPONSIBLE DEVELOPMENT</p>
+                                <p className="eyebrow">RESPONSIBLE DEVELOPMENT</p>
                                 <h2>Mining With <span>Responsibility.</span></h2>
                             </div>
                             <p className="section-intro">We believe mineral development must create value without compromising the environment, communities or future generations.</p>
@@ -145,7 +144,7 @@ export default function Home() {
                 <section className="projects-teaser">
                     <div className="container project-grid">
                         <div>
-                            <p className="eyebrow">06 — PROJECTS / OPPORTUNITIES</p>
+                            <p className="eyebrow">PROJECTS / OPPORTUNITIES</p>
                             <h2>Building Our <span>Resource Portfolio.</span></h2>
                             <p>We are actively evaluating mineral opportunities and strategic partnerships across selected resource segments.</p>
                             <Link className="button button-copper" href="/projects">
@@ -163,8 +162,8 @@ export default function Home() {
                 <section className="partner-cta">
                     <div className="container cta-inner">
                         <div>
-                            <p className="eyebrow">07 — PARTNERSHIP</p>
-                            <h2>Let’s Develop <span>Opportunities Together.</span></h2>
+                            <p className="eyebrow">PARTNERSHIP</p>
+                            <h2>Let’s Develop <span style={{color:"#000"}}>Opportunities Together.</span></h2>
                             <p>Whether you are seeking mineral resources, exploring an investment opportunity, or looking for a strategic operating partner, we welcome the conversation.</p>
                         </div>
                         <Link className="button button-light" href="/contact">

@@ -29,7 +29,7 @@ export default function Page() {
         <div className="container project-feature">
           <div>
             <p className="eyebrow">PROJECT</p>
-            <h2>ATM Quarries Limited — <span>Building Our Resource Portfolio.</span></h2>
+            <h2>ATM Quarries Limited <span>is Building Our Resource Portfolio.</span></h2>
             <p className="muted">We are actively evaluating mineral opportunities and strategic partnerships across selected resource segments.</p>
             <Link className="button button-dark" href="/contact">
               Discuss an Opportunity <ArrowUpRight size={17} />

@@ -4,7 +4,7 @@
 :root {
   --warm: #f4f1ea;
   --paper: #faf9f5;
-  --ink: #20221f;
+  --ink: #000;
   --graphite: #292b28;
   --stone: #74766f;
   --line: #d9d5cc;
@@ -13,7 +13,6 @@
   --blue: #205584;
   --blue-light: #3a8bc8;
 }
-
 
 /* ============================================================
    RESET & BASE
@@ -39,7 +38,6 @@ a {
   color: inherit;
 }
 
-
 /* ============================================================
    LAYOUT
    ============================================================ */
@@ -58,13 +56,12 @@ a {
   gap: 80px;
 }
 
-
 /* ============================================================
    TYPOGRAPHY
    ============================================================ */
 h1,
 h2 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.08;
   letter-spacing: -0.035em;
@@ -92,7 +89,7 @@ h2 {
   font-size: 10px;
   letter-spacing: 0.18em;
   font-weight: 700;
-  color: var(--copper);
+  color: var(--copper2);
   margin: 0 0 14px;
 }
 
@@ -118,11 +115,12 @@ h2 {
 }
 
 .large-copy {
-  font: 400 24px/1.35 Georgia, serif;
+  font:
+    400 24px/1.35 Georgia,
+    serif;
   color: #4d504b;
   margin: 0;
 }
-
 
 /* ============================================================
    BUTTONS
@@ -166,7 +164,6 @@ h2 {
   background: var(--copper);
   color: #fff;
 }
-
 
 /* ============================================================
    NAVIGATION
@@ -259,7 +256,6 @@ h2 {
   padding: 8px;
 }
 
-
 /* ============================================================
    MAIN HERO (Homepage)
    ============================================================ */
@@ -321,7 +317,9 @@ h2 {
 }
 
 .hero h1 {
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6), 0 1px 3px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.6),
+    0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 /* ============================================================
@@ -366,7 +364,9 @@ h2 {
   max-width: 900px;
   text-transform: none;
   margin-bottom: 16px;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6), 0 1px 3px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.6),
+    0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .page-hero-text {
@@ -377,12 +377,11 @@ h2 {
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
 }
 
-
 /* ============================================================
    FOCUS SECTION
    ============================================================ */
 .focus-section {
-  background: #242623;
+  background: #000;
   color: #f7f5ef;
 }
 
@@ -400,7 +399,7 @@ h2 {
 
 .section-intro {
   max-width: 370px;
-  color: #bdbeb8;
+  color: #3e3e3c;
   font-size: 14px;
   margin: 0;
 }
@@ -458,7 +457,6 @@ h2 {
   margin: 0;
 }
 
-
 /* ============================================================
    IMAGE SPLIT SECTION
    ============================================================ */
@@ -494,7 +492,6 @@ h2 {
   letter-spacing: 0.15em;
 }
 
-
 /* ============================================================
    RESOURCE LIST & CHIPS
    ============================================================ */
@@ -502,7 +499,7 @@ h2 {
   margin: 22px 0;
 }
 
-.resource-list>b {
+.resource-list > b {
   display: block;
   border-top: 1px solid #ccc9c0;
   padding: 12px 0 8px;
@@ -528,7 +525,6 @@ h2 {
   background: #fbfaf7;
   padding: 6px 9px;
 }
-
 
 /* ============================================================
    VALUES GRID
@@ -556,12 +552,11 @@ h2 {
   margin: 0;
 }
 
-
 /* ============================================================
    PROJECTS TEASER
    ============================================================ */
 .projects-teaser {
-  background: #30322f;
+  background: #000;
   color: #fff;
   padding: 85px 0;
 }
@@ -573,7 +568,7 @@ h2 {
   align-items: center;
 }
 
-.project-grid>div:first-child>p:not(.eyebrow) {
+.project-grid > div:first-child > p:not(.eyebrow) {
   color: #c6c7c1;
   max-width: 580px;
   margin-bottom: 20px;
@@ -591,8 +586,10 @@ h2 {
 
 .project-stat strong {
   display: block;
-  font: 400 85px Georgia, serif;
-  color: #205584;
+  font:
+    400 85px Georgia,
+    serif;
+  color: var(--copper2);
   line-height: 1;
   margin: 8px 0;
 }
@@ -602,7 +599,6 @@ h2 {
   font-size: 13px;
   margin: 0;
 }
-
 
 /* ============================================================
    PARTNER CTA
@@ -635,7 +631,6 @@ h2 {
   margin: 0;
 }
 
-
 /* ============================================================
    OPERATIONS GRID
    ============================================================ */
@@ -654,7 +649,7 @@ h2 {
   position: relative;
 }
 
-.operation-card>span {
+.operation-card > span {
   position: absolute;
   right: 20px;
   top: 20px;
@@ -668,12 +663,15 @@ h2 {
   margin: 10px 0 0;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
 
 /* ============================================================
    DARK BAND
    ============================================================ */
 .dark-band {
-  background: #242623;
+  background: #000;
   color: #fff;
   padding: 80px 0;
 }
@@ -691,7 +689,6 @@ h2 {
   color: #bdbeb8;
   margin: 0;
 }
-
 
 /* ============================================================
    RESOURCE CATALOG
@@ -714,7 +711,6 @@ h2 {
   font-size: 13px;
   color: #555751;
 }
-
 
 /* ============================================================
    MISC SECTIONS
@@ -765,7 +761,6 @@ h2 {
   flex: 0 0 auto;
 }
 
-
 /* ============================================================
    PROJECT FEATURE
    ============================================================ */
@@ -778,7 +773,7 @@ h2 {
 
 .project-mark {
   min-height: 280px;
-  background: #30322f;
+  background: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -787,8 +782,10 @@ h2 {
 }
 
 .project-mark strong {
-  font: 400 90px Georgia, serif;
-  color: #205584;
+  font:
+    400 90px Georgia,
+    serif;
+  color: #fff;
 }
 
 .project-mark span {
@@ -796,7 +793,6 @@ h2 {
   letter-spacing: 0.2em;
   color: #bbb;
 }
-
 
 /* ============================================================
    COPPER BAND
@@ -810,7 +806,6 @@ h2 {
 .copper-band .eyebrow {
   color: #d0e6f8;
 }
-
 
 /* ============================================================
    CONTACT
@@ -851,7 +846,7 @@ h2 {
 .contact-item small {
   font-size: 9px;
   letter-spacing: 0.16em;
-  color: #888a83;
+  color: var(--copper);
   font-weight: 700;
 }
 
@@ -915,12 +910,11 @@ textarea {
   justify-content: center;
 }
 
-
 /* ============================================================
    FOOTER
    ============================================================ */
 .footer {
-  background: #20221f;
+  background: #000;
   color: #d2d2cc;
   padding: 60px 0 0;
 }
@@ -971,6 +965,12 @@ textarea {
   color: #205584;
 }
 
+.footer-emails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .footer-bottom {
   border-top: 1px solid #3d403b;
   min-height: 55px;
@@ -981,7 +981,6 @@ textarea {
   color: #777a73;
   letter-spacing: 0.05em;
 }
-
 
 /* ============================================================
    RESPONSIVE — Tablet / Small Desktop  (max-width: 900px)
@@ -1020,7 +1019,7 @@ textarea {
     top: 70px;
     left: 0;
     right: 0;
-    background: #20221f;
+    background: #000;
     padding: 16px 20px 24px;
     flex-direction: column;
     align-items: stretch;
@@ -1220,7 +1219,7 @@ textarea {
     border-left: 1px solid var(--line);
   }
 
-  .operation-card>span {
+  .operation-card > span {
     top: 16px;
     right: 16px;
   }
@@ -1306,7 +1305,6 @@ textarea {
     padding-bottom: 35px;
   }
 }
-
 
 /* ============================================================
    RESPONSIVE — Mobile  (max-width: 560px)

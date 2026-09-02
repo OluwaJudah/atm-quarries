@@ -30,7 +30,7 @@ export default function Page() {
                 <span>0{i + 1}</span>
                 <div className="card-header">
                   <Icon size={24} />
-                  <h2>{t}</h2>
+                  <h3 className='uppercase'>{t}</h3>
                 </div>
                 <p>{x}</p>
               </article>
@@ -41,7 +41,7 @@ export default function Page() {
       <section className="copper-band">
         <div className="container narrow">
           <p className="eyebrow">OUR COMMITMENT</p>
-          <h2>Responsible resources. Stronger communities. Longer-term value.</h2>
+          <h2>Responsible resources. Stronger communities. Long-term value.</h2>
         </div>
       </section>
       <Footer />
