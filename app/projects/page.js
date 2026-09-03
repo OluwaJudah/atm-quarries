@@ -27,8 +27,7 @@ export default function Page() {
       />
       <section className="section">
         <div className="container project-feature">
-          <div>
-            <p className="eyebrow">PROJECT</p>
+          <div className="">
             <h2>ATM Quarries Limited <span>is Building Our Resource Portfolio.</span></h2>
             <p className="muted">We are actively evaluating mineral opportunities and strategic partnerships across selected resource segments.</p>
             <Link className="button button-dark" href="/contact">

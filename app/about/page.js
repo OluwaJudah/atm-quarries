@@ -51,7 +51,7 @@ export default function Page() {
       <section className="section">
         <div className="container">
           <p className="eyebrow">OUR VALUES</p>
-          <h2>How We <span>Operate.</span></h2>
+          <h3>How We <span>Operate.</span></h3>
           <div className="values-grid">
             {vals.map(([t, p, Icon]) => (
               <div className="value-card" key={t}>

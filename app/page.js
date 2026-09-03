@@ -34,13 +34,12 @@ export default function Home() {
                     <div className="container hero-content">
                         <h1>Exploring Resources.<br /><em>Creating Value.</em><br />Building the Future.</h1>
                     </div>
-                    <div className="hero-index">01 / 07</div>
                 </section>
 
                 <section className="section">
                     <div className="container two-col">
                         <div>
-                            <p className="eyebrow">02 — WHO WE ARE</p>
+                            <p className="eyebrow">WHO WE ARE</p>
                             <h2>Unlocking the Value <span>Beneath the Surface.</span></h2>
                         </div>
                         <div className="prose">
@@ -122,7 +121,7 @@ export default function Home() {
                                 <p className="eyebrow">RESPONSIBLE DEVELOPMENT</p>
                                 <h2>Mining With <span>Responsibility.</span></h2>
                             </div>
-                            <p className="section-intro">We believe mineral development must create value without compromising the environment, communities or future generations.</p>
+                            <p >We believe mineral development must create value without compromising the environment, communities or future generations.</p>
                         </div>
                         <div className="values-grid">
                             {values.map(([t, p, Icon]) => (
