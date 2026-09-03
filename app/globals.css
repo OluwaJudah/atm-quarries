@@ -676,6 +676,25 @@ h2 {
   padding: 80px 0;
 }
 
+.value-chain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.value-chain span {
+  white-space: nowrap;
+}
+
+.value-arrow {
+  color: var(--copper2);
+  font-size: 1em;
+  line-height: 1;
+}
+
 .narrow {
   max-width: 800px;
 }

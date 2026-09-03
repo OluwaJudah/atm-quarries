@@ -39,9 +39,17 @@ export default function Page() {
         </div>
       </section>
       <section className="dark-band">
-        <div className="container narrow">
+        <div className="container">
           <p className="eyebrow">VALUE CHAIN</p>
-          <h2>Explore → Extract → Process → Trade</h2>
+          <h2 className="value-chain">
+            <span>Explore</span>
+            <span className="value-arrow" aria-hidden="true">→</span>
+            <span>Extract</span>
+            <span className="value-arrow" aria-hidden="true">→</span>
+            <span>Process</span>
+            <span className="value-arrow" aria-hidden="true">→</span>
+            <span>Trade</span>
+          </h2>
           <p>Our model is designed to create optionality across mineral resources while maintaining a disciplined approach to technical, commercial, environmental and regulatory considerations.</p>
         </div>
       </section>

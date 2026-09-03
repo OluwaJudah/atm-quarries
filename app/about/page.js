@@ -1,7 +1,15 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PageHero from '@/components/PageHero';
-import { ShieldCheck, Award, Leaf, Lightbulb, Handshake } from 'lucide-react';
+import Link from 'next/link';
+import { ShieldCheck, Award, Leaf, Lightbulb, Handshake, Compass, Pickaxe, Factory, Truck, ArrowRight } from 'lucide-react';
+
+const focus = [
+  ['01', 'EXPLORE', 'Identifying mineral opportunities and evaluating deposits with commercial potential.', Compass],
+  ['02', 'EXTRACT', 'Developing efficient and responsible mining and quarrying operations.', Pickaxe],
+  ['03', 'PROCESS', 'Preparing, refining and processing minerals to meet market and industrial requirements.', Factory],
+  ['04', 'TRADE', 'Connecting mineral resources with local and international markets and industrial users.', Truck]
+];
 
 const vals = [
   ['Integrity', 'We conduct our business transparently and responsibly.', ShieldCheck],
@@ -25,12 +33,40 @@ export default function Page() {
         <div className="container two-col">
           <div>
             <p className="eyebrow">WHO WE ARE</p>
-            <h2>Integrated Across the <span>Nigerian Mineral Value Chain.</span></h2>
+            <h2>Unlocking the Value <span>Beneath the Surface.</span></h2>
           </div>
           <div className="prose">
             <p>ATM Quarries is an integrated mining, exploration and mineral resources company established to participate across the Nigerian mineral value chain — from exploration and extraction to processing, distribution and trade.</p>
-            <p>Our activities include the acquisition, exploration, development, mining, quarrying, processing and commercialisation of mineral resources and associated materials.</p>
-            <p>We seek to build a resilient resource business founded on operational excellence, responsible stewardship and long-term value creation.</p>
+            <p>We are a mining and exploration company engaged in the identification, development, extraction, processing and commercialisation of mineral resources.</p>
+            <p>Our business spans exploration and development of mineral deposits, quarrying and extraction operations, mineral processing, and supply and trade of materials for construction, manufacturing, energy and other industrial applications.</p>
+            <p>We combine resource opportunity with commercial discipline and responsible stewardship to transform mineral assets into sustainable economic value.</p>
+            <Link className="text-link" href="/contact">
+              Work With Us <ArrowRight size={16} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section focus-section">
+        <div className="container">
+          <div className="section-heading-row">
+            <div>
+              <p className="eyebrow">WHAT WE DO</p>
+              <h2>Across the <span>Mineral Value Chain.</span></h2>
+            </div>
+            <p className="section-intro">Capabilities designed to take opportunities from geological potential to commercial value.</p>
+          </div>
+          <div className="focus-grid">
+            {focus.map(([n, t, p, Icon]) => (
+              <article className="focus-card" key={t}>
+                <div className="card-number">{n}</div>
+                <div className="card-header">
+                  <Icon size={22} />
+                  <h3>{t}</h3>
+                </div>
+                <p>{p}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>

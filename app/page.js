@@ -2,19 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { ArrowUpRight, ArrowRight, Compass, Pickaxe, Factory, Truck, ShieldCheck, Leaf, Handshake, Gem } from 'lucide-react';
+
+import { ArrowUpRight, ArrowRight, ShieldCheck, Leaf, Handshake, Gem } from 'lucide-react';
 
 // Hero image
 const hero = '/images/image-13.webp';
 // Section quarry image
 const quarry = '/images/image-2.jpg';
-
-const focus = [
-    ['01', 'EXPLORE', 'Identifying mineral opportunities and evaluating deposits with commercial potential.', Compass],
-    ['02', 'EXTRACT', 'Developing efficient and responsible mining and quarrying operations.', Pickaxe],
-    ['03', 'PROCESS', 'Preparing, refining and processing minerals to meet market and industrial requirements.', Factory],
-    ['04', 'TRADE', 'Connecting mineral resources with local and international markets and industrial users.', Truck]
-];
 
 const values = [
     ['Integrity', 'We conduct our business transparently and responsibly.', ShieldCheck],
@@ -33,47 +27,6 @@ export default function Home() {
                     <div className="hero-overlay" />
                     <div className="container hero-content">
                         <h1>Exploring Resources.<br /><em>Creating Value.</em><br />Building the Future.</h1>
-                    </div>
-                </section>
-
-                <section className="section">
-                    <div className="container two-col">
-                        <div>
-                            <p className="eyebrow">WHO WE ARE</p>
-                            <h2>Unlocking the Value <span>Beneath the Surface.</span></h2>
-                        </div>
-                        <div className="prose">
-                            <p>We are a mining and exploration company engaged in the identification, development, extraction, processing and commercialisation of mineral resources.</p>
-                            <p>Our business spans exploration and development of mineral deposits, quarrying and extraction operations, mineral processing, and supply and trade of materials for construction, manufacturing, energy and other industrial applications.</p>
-                            <p>We combine resource opportunity with commercial discipline to transform mineral assets into sustainable economic value.</p>
-                            <Link className="text-link" href="/about">
-                                Discover ATM Quarries <ArrowRight size={16} />
-                            </Link>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="section focus-section">
-                    <div className="container">
-                        <div className="section-heading-row">
-                            <div>
-                                <p className="eyebrow">WHAT WE DO</p>
-                                <h2>Across the <span>Mineral Value Chain.</span></h2>
-                            </div>
-                            <p className="section-intro">Capabilities designed to take opportunities from geological potential to commercial value.</p>
-                        </div>
-                        <div className="focus-grid">
-                            {focus.map(([n, t, p, Icon]) => (
-                                <article className="focus-card" key={t}>
-                                    <div className="card-number">{n}</div>
-                                    <div className="card-header">
-                                        <Icon size={22} />
-                                        <h3>{t}</h3>
-                                    </div>
-                                    <p>{p}</p>
-                                </article>
-                            ))}
-                        </div>
                     </div>
                 </section>
 
@@ -137,24 +90,6 @@ export default function Home() {
                         <Link className="button button-dark" href="/sustainability">
                             Our Sustainability Approach <ArrowUpRight size={17} />
                         </Link>
-                    </div>
-                </section>
-
-                <section className="projects-teaser">
-                    <div className="container project-grid">
-                        <div>
-                            <p className="eyebrow">PROJECTS / OPPORTUNITIES</p>
-                            <h2>Building Our <span>Resource Portfolio.</span></h2>
-                            <p>We are actively evaluating mineral opportunities and strategic partnerships across selected resource segments.</p>
-                            <Link className="button button-copper" href="/projects">
-                                Explore Projects <ArrowUpRight size={17} />
-                            </Link>
-                        </div>
-                        <div className="project-stat">
-                            <small>PROJECT</small>
-                            <strong>ATM</strong>
-                            <p>Mineral exploration, quarrying, processing and strategic development opportunities.</p>
-                        </div>
                     </div>
                 </section>
 
