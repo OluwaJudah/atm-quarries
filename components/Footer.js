@@ -48,8 +48,11 @@ export default function Footer() {
             </div>
           </p>
           <p className="footer-contact">
-            <Phone size={15} />
-            <a href="tel:+2347035098273">+234 703 509 8273</a>
+            <Phone size={15} />{" "}
+            <div className="footer-contacts">
+              <a href="tel:+2347035098273">+234 703 509 8273</a>
+              <a href="tel:+2348037192585">+234 803 719 2585</a>
+            </div>
           </p>
         </div>
         <div>

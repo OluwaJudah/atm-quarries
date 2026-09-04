@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import Logo from "@/components/Logo";
@@ -14,16 +15,29 @@ const links = [
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (href) => pathname === href;
+
   return (
     <header className="site-header">
       <div className="container nav">
         <Logo onClick={() => setOpen(false)} />
         <nav className={open ? "nav-links open" : "nav-links"}>
-          <Link href="/" onClick={() => setOpen(false)}>
+          <Link
+            href="/"
+            className={isActive("/") ? "active" : undefined}
+            onClick={() => setOpen(false)}
+          >
             Home
           </Link>
           {links.map(([x, y]) => (
-            <Link href={y} key={y} onClick={() => setOpen(false)}>
+            <Link
+              href={y}
+              key={y}
+              className={isActive(y) ? "active" : undefined}
+              onClick={() => setOpen(false)}
+            >
               {x}
             </Link>
           ))}

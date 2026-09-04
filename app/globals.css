@@ -116,8 +116,9 @@ h2 {
 
 .large-copy {
   font:
-    400 24px/1.35 Georgia,
-    serif;
+    400 24px/1.35 Arial,
+    Helvetica,
+    sans-serif;
   color: #4d504b;
   margin: 0;
 }
@@ -187,7 +188,7 @@ h2 {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.05;
@@ -237,6 +238,10 @@ h2 {
 
 .nav-links a:hover {
   color: #5ba0db;
+}
+.nav-links a.active {
+  color: #8ec8f0;
+  opacity: 1;
 }
 
 .nav-cta {
@@ -814,7 +819,7 @@ h2 {
 .project-mark span {
   font-size: 10px;
   letter-spacing: 0.2em;
-  color: #bbb;
+  color: var(--copper2);
 }
 
 /* ============================================================
@@ -988,7 +993,8 @@ textarea {
   color: #205584;
 }
 
-.footer-emails {
+.footer-emails,
+.footer-contacts {
   display: flex;
   flex-direction: column;
   gap: 4px;

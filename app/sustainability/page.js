@@ -39,7 +39,7 @@ export default function Page() {
         </div>
       </section>
       <section className="copper-band">
-        <div className="container narrow">
+        <div className="container">
           <p className="eyebrow">OUR COMMITMENT</p>
           <h2>Responsible resources. Stronger communities. Long-term value.</h2>
         </div>
