@@ -54,7 +54,7 @@ export default function Page() {
               <p className="eyebrow">WHAT WE DO</p>
               <h2>Across the <span>Mineral Value Chain.</span></h2>
             </div>
-            <p className="section-intro">Capabilities is designed to take opportunities from geological potential to commercial value.</p>
+            <p className="section-intro">Our capabilities is designed to take opportunities from geological potential to commercial value.</p>
           </div>
           <div className="focus-grid">
             {focus.map(([n, t, p, Icon]) => (
