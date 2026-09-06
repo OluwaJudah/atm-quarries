@@ -41,7 +41,7 @@ export default function Page() {
       <section className="copper-band">
         <div className="container">
           <p className="eyebrow">OUR COMMITMENT</p>
-          <h2>Responsible resources. Viable Partnership. Stronger communities. Long-term value.</h2>
+          <h2>Responsible Resources. Viable Partnership. Stronger Communities. Long-Term Value.</h2>
         </div>
       </section>
       <Footer />
