@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
-import Logo from "@/components/Logo";
+import Image from "next/image";
 
 const links = [
   ["About Us", "/about"],
@@ -22,7 +22,16 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container nav">
-        <Logo onClick={() => setOpen(false)} />
+        <Link href="/" className="logo" onClick={() => setOpen(false)}>
+          <Image
+            src="/images/logo.png"
+            alt="ATM Quarries Limited"
+            width={2000}
+            height={2000}
+            priority
+            className="logo-img"
+          />
+        </Link>
         <nav className={open ? "nav-links open" : "nav-links"}>
           <Link
             href="/"

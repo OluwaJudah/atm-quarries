@@ -1,13 +1,23 @@
+"use client";
 import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
-import Logo from "@/components/Logo";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <Logo />
+          <Link href="/" className="logo" onClick={() => setOpen(false)}>
+            <Image
+              src="/images/logo.png"
+              alt="ATM Quarries Limited"
+              width={2000}
+              height={2000}
+              priority
+              className="logo-img"
+            />
+          </Link>
           <p className="footer-tagline">
             Exploring resources.
             <br />
